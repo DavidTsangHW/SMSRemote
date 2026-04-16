@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+    <ui.CustomSwitchPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="notification"
+        android:title="@string/pref_title_notification" >
+    </ui.CustomSwitchPreference>
+    
+    <ui.CustomSwitchPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="reply"
+        android:summary="@string/pref_description_sms_reply"
+        android:title="@string/pref_title_sms_reply" >
+    </ui.CustomSwitchPreference>
+
+</PreferenceScreen>

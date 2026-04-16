@@ -1,0 +1,174 @@
+<resources>
+    
+    <string-array name="pref_map_type_titles">
+        <item>平面</item>
+        <item>衛星</item>
+        <item>地形</item>
+        <item>混合</item>
+
+    </string-array>
+	
+<string-array name="pref_broadcast_mode_titles">
+	<item>任何地點, 選定區域除外</item>
+	<item>永不傳送我的位置</item>
+</string-array>
+        
+<string-array name="pref_location_request_mode_titles">
+	<item>短信</item>
+	<item>未接來電</item>
+	<item>短信+未接來電</item>
+</string-array>
+    
+<string-array name="pref_reply_sms_titles">
+	<item>任何情況</item>
+	<item>只有當沒有連接互聯網</item>
+	<item>永不短信回覆</item>
+</string-array>
+
+<string-array name="pref_weekdays">
+        <item>週日</item>
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+    </string-array>
+
+<string name="pref_title_custom_poi">我自定的地標</string>
+    <string name="pref_description_custom_poi_notifications">當聯絡人靠近我自定的地標</string>
+    <string name="pref_title_preloaded_poi">預設地標</string>
+    <string name="pref_description_preloaded_poi_notifications">當聯絡人靠近預設地標</string>
+    <string name="pref_description_voice_notification">使用語音引擎讀出通知內容</string>
+    
+     <string name="pref_title_callerlocation">顯示來電者位置</string>
+    <string name="pref_description_callerlocation">接到電話時顯示來電者位置</string>
+    
+    <string name="pref_title_show_poi">顯示我自定的地標</string>
+	<string name="pref_description_show_poi">在地圖上顯示我自定的地標</string> 
+
+    <string name="pref_title_show_preloaded_poi">顯示預設地標</string>
+    <string name="pref_description_show_preloaded_poi">在地圖上顯示預設地標 (車站..)</string> 
+    
+    <string name="pref_title_show_anonymous_marker">顯示匿名聯絡人的位置標記</string>
+    <string name="pref_description_show_anonymous_marker">取消予隱藏聯絡人的位置標記</string>    
+    
+   	<string name="title_activity_settings">設定</string>
+	<string name="pref_header_general">一般</string>
+	<string name="pref_title_social_recommendations">使社會的建議</string>
+	<string name="pref_description_social_recommendations">人們建議聯絡根據消息歷史記錄</string>
+	<string name="pref_title_allow_wifi">無線上網</string>
+	<string name="pref_description_allow_wifi">自動開啟/關閉Wi-Fi定位，如果禁用</string>
+	<string name="pref_title_allow_mobile_data">移動數據</string>
+	<string name="pref_description_allow_mobile_data">對定位/關移動數據，如果禁用自動轉</string>
+	<string name="pref_title_allow_gps">全球定位系統</string>
+	<string name="pref_description_allow_gps">在收到#GPS打開/關閉GPS</string>
+	<string name="pref_title_allow_call_back">回電話</string>
+	<string name="pref_description_allow_call_back">回撥在收到#CALL</string>  
+	<string name="pref_title_allow_battery">電池</string>
+	<string name="pref_description_allow_battery">在收到#BATT返回電池狀態</string> 
+	<string name="pref_title_display_name">顯示名稱</string>
+	<string name="pref_default_display_name">約翰·史密斯</string>
+	<string name="pref_title_broadcast_mode">位置傳送模式</string>
+	<string name="pref_title_location_request_mode">請求類型</string>
+	<string name="pref_title_reply_sms">短信回覆</string>
+
+	<string name="pref_title_traffic">交通</string>
+	<string name="pref_description_traffic">在地圖上顯示當前道路情況</string>
+	<string name="pref_title_weather">天氣</string>
+	<string name="pref_description_weather">在地圖上顯示天氣資料</string>
+	<string name="pref_title_map_type">地圖類型</string>
+	<string name="pref_header_tts">駕駛模式</string>
+	<string name="pref_title_drivingMode">駕駛模式</string>
+	<string name="pref_description_drivingMode">站出來說話的通知和消息時行駛的車輛（需GPS）</string> 
+	<string name="pref_title_ttsSettings">文本到語音選項</string>
+	<string name="pref_description_ttsSettings">語音引擎，語速&#8230;</string>
+	<string name="pref_title_notification">通知</string>
+	 
+	<string name="pref_title_locationsharing">自動打卡</string>
+    <string name="pref_description_locationsharing">自動打卡並傳送至選定聯絡人</string>   
+	<string name="pref_title_schedule">時間器</string>
+	<string name="pref_description_schedule">只在指定的時間送出我的位置</string> 
+	<string name="pref_title_settings_password">設定密碼</string>
+	<string name="pref_description_settings_password">保護受信任的聯絡人和設定</string> 
+	<string name="pref_title_beacon">烽火</string>
+	<string name="pref_description_beacon">自動連接網絡，位置更新</string> 
+	<string name="pref_title_smsrequest">位置請求</string>
+	<string name="pref_description_smsrequest">允許受信任的聯絡人的位置請求</string> 
+	<string name="pref_header_sms_request">位置請求</string>
+	<string name="pref_header_data_sync">位置服務</string>
+	<string name="pref_header_privacy">隱私設定</string>
+	<string name="pref_header_beacon">烽火</string>
+	<string name="pref_header_settings_password">設定密碼</string>
+	<string name="pref_title_sync_frequency">同步頻率</string>
+ 	<string name="pref_title_sync_network">網絡</string>
+	<string name="pref_title_trusted_contacts">受信任的聯絡人</string>
+	<string name="pref_title_contact_settings">聯絡人設定</string>
+	<string name="pref_title_location_services">位置服務 (必須啟動)</string>
+	<string name="pref_description_location_services">允許使用GPS和網絡定位</string>
+	<string name="pref_title_coordinates">坐標</string>
+	<string name="pref_title_status">狀態</string>
+	<string name="pref_title_smallestdisplacement">最小排量</string>
+	<string name="pref_title_fastestinterval">最快的時間間隔</string>
+	<string name="pref_title_priority">優先</string>
+	<string name="pref_title_last_sync">上次同步</string>
+	<string name="pref_title_next_beacon">下一步燈塔</string>
+	<string name="pref_title_server_status">伺服器狀態</string>
+	<string name="pref_title_service_status">服務有效期</string>
+	<string name="pref_title_phone_number">電話號碼</string>
+	<string name="pref_title_google_account">Google帳戶</string>
+	<string name="pref_title_version">版本</string>
+	<string name="pref_title_product">產品</string>
+	<string name="pref_title_date_registration">註冊日期</string>
+	<string name="pref_title_subscribe">訂閱</string>
+	<string name="pref_title_change_subscription">更改訂閱</string>
+	<string name="pref_title_unsubscribe">退訂</string>
+	<string name="pref_title_phone_verification">更改號碼</string>
+	<string name="pref_title_lrequests">位置請求</string>
+	<string name="pref_title_zones">區</string>
+	<string name="pref_title_event_log">事件日誌</string>
+	<string name="pref_title_contacts_position">聯絡人位置</string>
+	<string name="pref_title_preference">偏愛</string>
+	<string name="pref_title_debug_view">調試視圖</string>
+	<string name="pref_title_sandbox_view">砂箱</string>
+	<string name="pref_title_pager_demo">尋呼機演示</string>
+	<string name="pref_title_backup">備用</string>
+	<string name="pref_title_restore">恢復</string>
+	<string name="pref_title_credits">積分</string>
+	<string name="pref_title_wifisettings">WiFi設定</string>
+	<string name="pref_description_wifisettings">啟用“掃描”，以通過無線網絡定位</string>
+	<string name="pref_description_wakelock">容許於屏幕關上時繼續使用GPS或網絡定位. 將增加耗電量</string>
+    <string name="pref_title_wakelock">保持喚醒</string>
+	
+	<string name="pref_title_upgrade">升級</string>
+	<string name="pref_title_supportus">為我們打氣</string>
+	<string name="pref_title_redeem">兌換碼</string>
+	<string name="pref_title_tell_a_friend">推薦本程式</string>
+	<string name="pref_title_about">關於本程式</string>
+	<string name="pref_description_about">大約</string>
+	<string name="pref_title_agreement">協議</string>
+	<string name="pref_title_childlock">兒童鎖</string>
+	<string name="pref_header_notifications">通知</string>
+	<string name="pref_title_location_change_notifications">往來</string>
+	<string name="pref_description_location_change_notifications">通知接觸時，附近的手錶區</string>
+	<string name="pref_title_zone_change_notifications">區變化</string>
+	<string name="pref_description_zone_change_notifications">通知附近的一個無聲或廣播時區</string>
+	<string name="pref_title_ringtone">鈴聲</string>
+	<string name="pref_ringtone_silent">無聲</string>
+	<string name="pref_title_sound">聲音</string>
+	<string name="pref_title_vibrate">顫動</string>
+	<string name="pref_title_voice">聲音</string>
+	<string name="pref_title_light">光</string>
+	<string name="pref_title_password">密碼</string>
+	<string name="pref_header_schedule">設定運作時間</string>
+	<string name="pref_title_timefrom">從</string>
+	<string name="pref_title_timeto">至</string>
+	<string name="pref_title_weekdays">工作日</string>
+	<string name="pref_header_development">發展</string>
+	<string name="pref_header_others">其他</string>
+	<string name="pref_header_account_status">註冊</string>
+	<string name="pref_header_subscription">雲端服務</string>
+	<string name="pref_header_prod_info">產品資料</string>
+	<string name="pref_header_status">狀態</string>
+    
+</resources>

@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    
+    <Preference
+        android:key="info_sms_mobile_data_free"
+        android:title="@string/app_name1"
+        android:summary="@string/STR22021" >
+    </Preference>
+    <Preference
+        android:key="info_sms_mobile_data_full"
+        android:title="@string/app_name2"
+        android:summary="@string/STR22021" >
+    </Preference>
+    <Preference
+        android:key="info_sms_wifi_free"
+        android:title="@string/app_name3"
+        android:summary="@string/STR22022" >
+    </Preference>
+    <Preference
+        android:key="info_sms_wifi_full"
+        android:title="@string/app_name4"
+        android:summary="@string/STR22022" >
+    </Preference>
+    <Preference
+        android:key="info_exact_gps"
+        android:title="@string/exactgps"
+        android:summary="@string/STR22023" >
+    </Preference>
+        
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+        
+    <ui.CustomSwitchPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="enablelog"
+        android:summary="@string/pref_description_enablelog"
+        android:title="@string/pref_title_enablelog" >
+ </ui.CustomSwitchPreference>
+              
+     <Preference android:title="@string/pref_title_openlog" 
+         	android:dependency="enablelog"
+          	android:key="openlog">
+     </Preference>
+
+</PreferenceScreen>

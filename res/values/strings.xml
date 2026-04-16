@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="activity_contacts_list">Contacts List</string>
+    <string name="activity_contact_detail">Contact Detail</string>
+    <string name="contacts_list_search_results_title">Contacts List Search for \"%s\"</string>
+  <!--   <string name="app_description">This is a sample app, demonstrating use of the Android system Contacts Provider.</string> -->
+    <string name="imageview_description">Contact Thumbnail</string>
+    <string name="address_button_description">View Address</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_contact">Add Contact</string>
+    <string name="menu_edit_contact">Edit Contact</string>
+    <string name="no_contacts">No Contacts Found</string>
+    <string name="no_contact_selected">No Contact Selected</string>
+    <string name="search_hint">Find contacts</string>
+
+    <!-- Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by
+         alphabet using ListView fast scroll. -->
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!-- When using ContactsContract.Contacts#CONTENT_FILTER_URI to search contacts, a match occurs
+         when using a number of different fields, such as name, e-mail address, address, phone
+         number, etc. When a match occurs that is not the name, there is currently no way to tell
+         which other field was matched. This string is displayed in the secondary display text in
+         ContactsListFragment when a search query match occurs that is not the display name.
+         -->
+    <string name="search_match_other">Matches Other Field</string>
+
+    <string name="no_address">No addresses found</string>
+    <string name="no_intent_found">No application found to handle this action</string>
+    
+
+    <style name="ButtonText">
+       <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    
+	<style name="TitleText">
+       <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#CCCCCC</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>    
+    
+    <string name="app_name">SMS Mobile Data Free</string>
+    <string name="app_name1">SMS Mobile Data Free</string>
+    <string name="app_name2">SMS Mobile Data</string>
+    <string name="app_name3">SMS WIFI Free</string>
+    <string name="app_name4">SMS WIFI</string>
+    <string name="exactgps">Exact GPS</string>
+    
+    <string name="action_selectContact">Select contact</string>
+    <string name="action_forwardPosition">Send as text message</string>
+    <string name="action_checkin">Checkin</string>
+    <string name="action_savePOI">Save</string>
+    <string name="action_snapShot">Send as picture</string>
+    <string name="action_addContact">Add contact</string>
+    <string name="action_addtoTrustList">Location sharing</string>
+    <string name="action_broadcast_zone">Location sharing</string>
+    <string name="action_watch_zone">Mute notification</string>
+    <string name="action_silent_zone">Location sharing</string>
+    <string name="action_deletePOI">Delete</string>
+    <string name="action_editPOI">Edit</string>
+    <string name="action_renamePOI">Rename</string>
+    <string name="action_Locate">Locate</string>
+    <string name="action_showLastLocationShared">Last location shared</string>
+    <string name="action_showUserGroup">Group</string>
+    <string name="action_setPOIIcon">Change icon</string>
+    <string name="action_defaultPOIIcon">Set default icon</string>
+    <string name="action_myLocation">Set current location</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_showhint">Show hints</string>
+    <string name="action_search_queryHint">Address</string>
+    <string name="action_trustedContacts">Trusted contacts</string>
+    <string name="action_Help">Help</string>
+    <string name="action_About">About</string>
+    <string name="action_CloseMap">Close map</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_Send">Location request via SMS</string>
+    <string name="action_Call">Call</string>
+    <string name="action_Mute">Mute notification</string>
+    <string name="action_sendMessage">Send message</string>
+    <string name="action_AddContact">Add contact</string>
+    <string name="action_AddGroup">Add group</string>
+    <string name="action_ContactSync">Synchronize</string>
+    <string name="action_Invite">Share</string>
+    <string name="title_activity_show_map">Show Map</string>
+    <string name="DebugView">Debug view</string>
+    <string name="PositionsView">Positions</string>
+    <string name="EventLogView">Event Log</string>
+    <string name="lRequestsView">Location request</string>
+    <string name="ContactGroups">Groups</string>
+    <string name="GroupSettings">Group settings</string>    
+    <string name="DatabaseView">Database view</string>
+    <string name="title_location_request">Location request via SMS</string>
+    <string name="TrustedContactView">Trusted contacts</string>
+    <string name="ContactSettingsView">Contact settings</string>
+    <string name="Messaging">Messaging</string>
+    <string name="Upgrade">Upgrade</string>
+    <string name="Subscribe">Subscribe</string>
+    <string name="Subscription">Subscription</string>
+    <string name="Unsubscribe">Unsubscribe</string>
+    <string name="Later">Later</string>
+    <string name="Verify">Verify</string>
+    <string name="EnterPhoneNumber">Enter phone number</string>
+    
+    <string name="Subscription1">1 month</string>
+    <string name="Subscription2">6 months</string>
+    <string name="Subscription3">12 months</string>
+    
+    <string name="title_activity_contact_location">Contact Location</string>
+
+    <string name="title_activity_phone_verification">Phone verification</string>
+    
+    <string name="text_verification">Enter your phone number for verification</string>
+   	
+    <string name="title_AuthActivity">Google auth activity</string>
+    <string name="title_debug_view">Debug view</string>
+	<string name="title_activity_about">About</string>
+	<string name="title_activity_backup">Backup</string>
+	<string name="title_activity_restore">Restore</string>
+	<string name="title_activity_credits">Credits</string>
+	<string name="title_activity_purchase">Service subscription</string>
+	<string name="title_activity_preference">Preference</string>
+	<string name="title_activity_agreement">Agreement</string>
+	 <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+	
+ 
+	
+	<string name="Temp">Temp</string>
+	<string name="Hum">Hum</string>
+	<string name="Wind">Wind</string>
+	
+	
+	<string-array name="menu">
+		<item>Create</item>
+		<item>Edit</item>
+		<item>Delete</item>
+	</string-array>
+
+	
+    
+<string name="STR10000">Connection error, please check internet connection</string>
+<string name="STR10001">&#160;has a new location</string>
+<string name="STR10002">New name</string>
+<string name="STR10003">Save</string>
+<string name="STR10004">Cancel</string>
+<string name="STR10005">Message sent</string>
+<string name="STR10006">No last known location</string>
+<string name="STR10007">&#160;is close to&#160;</string>
+<string name="STR10008">&#160;is at an unknown location</string>
+<string name="STR10009">Retrieving weather info&#8230;</string>
+<string name="STR10010">Sending location request</string>
+<string name="STR10011">This may incur charges to your phone bill. Press confirm to proceed</string>
+<string name="STR10012">Confirm</string>
+<string name="STR10013">Cancel</string>
+<string name="STR10014">Select contact</string>
+<string name="STR10015">Updating&#8230;</string>
+<string name="STR10016">&#160;updated</string>
+<string name="STR10017">Save</string>
+<string name="STR10018">Cancel</string>
+<string name="STR10019">Program settings protection</string>
+<string name="STR10020">The section is currently password protected.\n\nPlease enter password</string>
+<string name="STR10021">OK</string>
+<string name="STR10022">Incorrect password</string>
+<string name="STR10023">Cancel</string>
+<string name="STR10024">Your last location shared</string>
+<string name="STR10025">Here is&#160;</string>
+<string name="STR10026"></string>
+<string name="STR10027">Location shared by Exact GPS</string>
+<string name="STR10028">my last location shared&#160;</string>
+<string name="STR10029">Last location shared with&#160;</string>
+<string name="STR10030"></string>
+<string name="STR10031">No location shared with&#160;</string>
+<string name="STR10032">Name a place</string>
+<string name="STR10033">Name</string>
+<string name="STR20000">Change background color</string>
+<string name="STR20001">Enter color code</string>
+<string name="STR20002">OK</string>
+<string name="STR20003">Cancel</string>
+<string name="STR20004">Please wait&#8230;</string>
+<string name="STR20005">Country code not found</string>
+<string name="STR20006">Please check your internet connection and try again</string>
+<string name="STR20007">Verification</string>
+<string name="STR20008">Press confirm to verify this phone number</string>
+<string name="STR20009">\n\nYour carrier may charge you for sending and receiving SMS.</string>
+<string name="STR20010">Confirm</string>
+<string name="STR20011">Cancel</string>
+<string name="STR20012">Internet connection error.\nYour phone is not connected to the internet.\nDo you want to retry?</string>
+<string name="STR20013">Connection error</string>
+<string name="STR20014">OK</string>
+<string name="STR20015">Creating database&#8230;</string>
+<string name="STR20016">Please wait&#8230;</string>
+<string name="STR20017">Downloading saved preferences and data</string>
+<string name="STR20018">Please wait&#8230;</string>
+<string name="STR20019">Transferring preferences and data</string>
+<string name="STR20020">Please wait&#8230;</string>
+<string name="STR20021">Verification completed</string>
+<string name="STR20022">Congratulations, all things done!</string>
+<string name="STR20023">Phone number changed</string>
+<string name="STR20024">Your phone number has been changed to&#160;</string>
+<string name="STR20025">Go</string>
+<string name="STR20026">Verification failed</string>
+<string name="STR20027">This problem may be due to internet connection error.\nDo you want to retry?</string>
+<string name="STR20028">Retry</string>
+<string name="STR20029">Later</string>
+<string name="STR20030">Please wait&#8230;</string>
+<string name="STR20031">Please wait&#8230;</string>
+<string name="STR20032">Please wait&#8230;</string>
+<string name="STR20033">Verifying your phone number\n It won\'t take too long</string>
+<string name="STR20034">Authenticating</string>
+<string name="STR20035">Searching for your registration in our database</string>
+<string name="STR20036">Detecting your country code</string>
+
+<string name="STR30000">&#160;has left&#160;</string>
+<string name="STR30001">&#160;is close to&#160;</string>
+<string name="STR30002">&#160;is close to&#160;</string>
+<string name="STR30003">&#160;is very close to&#160;</string>
+<string name="STR30004">Location request received</string>
+<string name="STR30005">Please enable GPS or network for positioning</string>
+<string name="STR30006">You can now share your location via internet\n</string>
+<string name="STR30007">Valid until </string>
+<string name="STR30008">Cloud service activated</string>
+<string name="STR30009">Cloud service suspensed</string>
+<string name="STR30010">Your cloud service is expired.</string>
+<string name="STR30011">Location services disabled</string>
+<string name="STR30012">Please enable location services</string>
+<string name="STR30013">M away</string>
+<string name="STR30014">M away from </string>
+<string name="STR30015">Last known nearby&#160;</string>
+<string name="STR30016">&#160;minutes ago</string>
+
+<string name="STR40001">Do not show this message again</string>
+<string name="STR40002">Got it</string>
+<string name="STR40003">No more hints</string>
+
+<string name="STR50001">Select</string>
+
+<string-array name="STR60001">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+<string name="STR60002">Saved</string>
+<string name="STR60003">Group name</string>
+<string name="STR60004">Name</string>
+<string name="STR60005">None</string>
+<string name="STR60006">Create</string>
+<string name="STR60007">Edit</string>
+<string name="STR60008">Delete</string>
+<string name="STR60009">Work</string>
+<string name="STR60010">Friends</string>
+<string name="STR60011">Family</string>
+<string name="STR60012">Unknown location</string>
+
+<string name="STR70001">Map</string>
+<string name="STR70002">Contacts</string>
+<string name="STR70003">Contacts check-in</string>
+<string name="STR70004">Your check-ins</string>
+<string name="STR70005">Places</string>
+<string name="STR70006">Groups</string>
+<string name="STR70007">Settings</string>
+<string name="STR70009">How to use it?</string>
+<string name="STR70010">Find us on Facebook</string>
+<string name="STR70011">About</string>
+
+<string name="STR80001">Enable location sharing</string>
+<string name="STR80002">Mute</string>
+<string name="STR80003">Unmute</string>
+<string name="STR80004">Disable location sharing</string>
+<string name="STR80005">Show on map</string>
+<string name="STR80006">Send as text message</string>
+<string name="STR80007">Rename</string>
+<string name="STR80008">Delete</string>
+<!-- 1.9.1000 -->
+
+
+<string name="STR90001">Group</string>
+<string name="STR90002">Enable location sharing</string>
+<string name="STR90003">Mute</string>
+<string name="STR90004">Unmute</string>
+<string name="STR90005">Disable location sharing</string>
+<string name="STR90006">: </string>
+<string name="STR90007">: </string>
+<string name="STR90008">Call</string>
+<string name="STR90009">Message</string>
+<string name="STR90010">Show on map</string>
+<string name="STR90011">Invite to share</string>
+<string name="STR90012">Location request via SMS</string>
+<string name="STR90013">Tools</string>
+
+<string name="STR100001">Add new</string>
+<string name="STR100002">Edit</string>
+<string name="STR100003">Delete</string>
+
+<string name="STR110001">Enable location services (Required)</string>
+<string name="STR110002">Disable location services</string>
+<string name="STR110003">Enable location sharing</string>
+<string name="STR110004">Disable location sharing</string>
+<string name="STR110005">Go to setting</string>
+<string name="STR110006">Change map type to Normal</string>
+<string name="STR110007">Change map type to Satellite</string>
+<string name="STR110008">Change map type to Terrain</string>
+<string name="STR110009">Change map type to Hybrid</string>
+<string name="STR110010">Show traffic on map</string>
+<string name="STR110011">Stop showing traffic on map</string>
+<string name="STR110012">Show weather on map</string>
+<string name="STR110013">Stop showing weather on map</string>
+<string name="STR110014">Enable notification</string>
+<string name="STR110015">Disable notification</string>
+<string name="STR110016">Enable text to speech</string>
+<string name="STR110017">Disable text to speech</string>
+<string name="STR110018">Invite to share location</string>
+
+<string name="STR12001">Location services disabled</string>
+<string name="STR12002">Location services is required for positioning. Do you want to go to settings menu?</string>
+<string name="STR12003">Normal</string>
+<string name="STR12004">Connecting</string>
+<string name="STR12005">List is empty, press [ ? ] or Help for more info</string>
+<string name="STR12006">Loading map</string>
+<string name="STR12007">Auto checkin stopped</string>
+<string name="STR12008">You are now nearby&#160;</string>
+<string name="STR12009">Auto checkin resumed</string>
+<string name="STR12010">You have left&#160;</string>
+<string name="STR12011">Place</string>
+<string name="STR12012">Please connect your phone to the internet.</string>
+<string name="STR12013">Internet connection test failed</string>
+<string name="STR12014">Checking-in</string>
+<string name="STR12015">Checkin successful</string>
+<string name="STR12016">Checkin failed, check internet connection.</string>
+<string name="STR12017">Updating contacts</string>
+<string name="STR12018">&#160;contact(s) added</string>
+<string name="STR12019">No new contact</string>
+<string name="STR12020">Location checkin</string>
+<string name="STR12021">Checkin location nearby&#160;</string>
+<string name="STR12022">Checkin cancelled</string>
+<string name="STR12023"></string>
+<string name="STR12024">OK</string>
+<string name="STR12025">&#160;needs Exact GPS to receive your location.</string>
+<string name="STR12026">Invite&#160;</string>
+<string name="STR12027">&#160;to install Exact GPS?</string>
+<string name="STR12028">Sending location</string>
+    
+    <string name="STR22001">ON</string>
+    <string name="STR22002">OFF</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="entercode">Enter code</string>
+    <string name="STR22006">Change passcode</string>
+    <string name="STR22007">Settings</string>
+    <string name="STR22008">Send SMS with passcode to control WIFI</string>
+    <string name="STR22009">Send SMS with passcode to control mobile data</string>
+    <string name="STR22010">Auto stop after turned on for</string>
+    <string name="STR22011">Unlimited</string>
+	<string name="STR22012">Press start</string>
+    <string name="STR22013">Get full version</string>
+    <string name="STR22014">Unlimited - Full version only</string>
+    <string name="STR22015">&#160;turned on</string>
+    <string name="STR22016">&#160;turned off</string>
+    <string name="STR22017">WIFI</string>
+    <string name="STR22018">Mobile data</string>
+    <string name="STR22019">Log cleared</string>
+    <string name="STR22020">Application is stopped</string>
+    <string name="STR22021">Turn on / off mobile data by SMS</string>
+    <string name="STR22022">Turn on / off WIFI by SMS</string>
+    <string name="STR22023">Instant location sharing</string>
+    <string name="STR22024">Download SMS Mobile Data at Google Play</string>
+	<string name="STR22025">Download SMS WIFI at Google Play</string>
+	<string name="pref_header_log">Activities log</string>
+    <string name="pref_header_more_prod">More products</string>
+    <string name="pref_title_sms_reply">SMS reply</string>
+    <string name="pref_description_sms_reply">Reply a SMS to sender</string>     
+    <string name="pref_title_enablelog">Enable log</string>
+    <string name="pref_description_enablelog">Log activities</string> 
+    <string name="pref_title_openlog">Read log file</string>
+    <string name="STR22026">Running</string>
+    <string name="STR22027">&#160;times to stop</string>
+    <string name="STR22028">Send out</string>
+    <string name="STR22029">Mobile data passcode</string>
+    <string name="STR22030">WIFI passcode</string>
+    <string name="STR22031">Notify me when WIFI is turned on / off</string>
+    <string name="STR22032">Notify me when mobile data is turned on / off</string>
+  
+
+</resources>

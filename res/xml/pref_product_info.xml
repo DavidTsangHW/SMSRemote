@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+       
+       <Preference android:title="@string/pref_title_product"
+           android:key="info_product"/>
+       
+       <Preference android:title="@string/pref_title_version"
+           android:key="info_version"/>
+       
+       
+        <Preference android:title="@string/pref_title_tell_a_friend" android:key="info_tell_a_friend">
+       </Preference>
+
+        
+        <Preference android:title="@string/pref_title_about" android:key="info_about">
+      	</Preference>
+        
+</PreferenceScreen>

@@ -1,0 +1,257 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto" 
+    android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#003366">
+
+<FrameLayout 
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:scrollbars="vertical"
+    android:background="#003366">
+   
+         <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+        android:orientation="vertical"
+    	android:padding="10dp">
+    
+                 	    <ImageView
+      	       android:id="@+id/icon"
+    	       android:src="@drawable/ic_launcher"
+    	       android:layout_width="wrap_content"
+    	       android:layout_height="wrap_content"
+    	       android:layout_gravity="center"
+    	       android:layout_marginTop="25dp"
+    	       android:visibility="visible"/>
+                 	    
+                 	        <TextView
+        android:id="@+id/textDesc"
+        style="@style/TitleText"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+           android:gravity="center"
+        android:text="@string/STR22008" />
+                 	                     
+    <Button
+        android:id="@+id/buttonEnableMobileData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable mobile data" />
+    
+        <Button
+        android:id="@+id/buttonDisableMobileData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Disable mobile data" />
+        
+           <Button
+        android:id="@+id/buttonEnableWifi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Wifi" />
+    
+        <Button
+        android:id="@+id/buttonDisableWifi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Disable Wifi" />
+        
+
+        
+   
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view1"
+        android:orientation="horizontal" >
+
+                     <TextView
+        android:id="@+id/text_code1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/TitleText"
+        android:text="@string/STR22001"/>
+
+    
+    <EditText
+        android:id="@+id/edt_code1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="@string/entercode"
+        android:layout_weight="5"
+        style="@style/TitleText"/>    
+
+                                                                    
+</LinearLayout>
+        
+   
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view2"
+        android:orientation="horizontal" >
+
+                     <TextView
+        android:id="@+id/text_code2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/TitleText"
+        android:text="@string/STR22002"/>
+
+    
+    <EditText
+        android:id="@+id/edt_code2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="@string/entercode"
+        android:layout_weight="5"
+        style="@style/TitleText"/>    
+
+    
+                                                                    
+</LinearLayout>
+<!-- 
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view3"
+        android:orientation="horizontal" > 
+
+   <com.google.android.gms.ads.AdView android:id="@+id/adView"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         ads:adSize="BANNER"
+                         ads:adUnitId="ca-app-pub-3229738977378544/7053638114"/>
+</LinearLayout>
+ -->
+
+      <!-- Mobile data -->
+            <com.google.android.gms.ads.AdView android:id="@+id/adView2"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+                         ads:adSize="BANNER"
+                         ads:adUnitId="ca-app-pub-3229738977378544/6659810117"/>
+
+<!--  Wifi -->
+      <com.google.android.gms.ads.AdView android:id="@+id/adView3"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+                         ads:adSize="BANNER"
+                         ads:adUnitId="ca-app-pub-3229738977378544/3727010114"/>
+
+      
+
+        <Button
+        android:id="@+id/buttonStartStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_verify_bg"
+        style="@style/ButtonText"
+        android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+        android:text="@string/start" />
+        
+                <Button
+        android:id="@+id/buttonPasscode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_verify_bg"
+        style="@style/ButtonText"
+        android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+        android:text="@string/STR22006" />
+                
+                
+                        
+                <Button
+        android:id="@+id/buttonSendPasscode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_verify_bg"
+        style="@style/ButtonText"
+        android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+        android:text="@string/STR22028" />
+                
+                                <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_verify_bg"
+        style="@style/ButtonText"
+        android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+        android:text="@string/STR22007" />
+                                
+                                
+        <Button
+            android:id="@+id/buttonFullVersion"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_verify_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:text="@string/STR22013" />
+
+    <TextView
+        android:id="@+id/textCount"
+        style="@style/TitleText"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+           android:gravity="center"
+        android:text="@string/STR22012" />
+   
+     
+   <TextView
+        android:id="@+id/textVersion"
+        style="@style/TitleText"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+           android:gravity="center"
+        android:text="Ver" />
+             
+
+            </LinearLayout>
+
+
+</FrameLayout>
+
+</ScrollView>
+
+
+	
+           
+
